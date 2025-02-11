@@ -23,10 +23,17 @@
   <ItemGroup>
     <Compile Remove="GenererDatabase\**" />
     <Compile Remove="OutilSQL\**" />
+    <Compile Remove="publish\**" />
     <EmbeddedResource Remove="GenererDatabase\**" />
     <EmbeddedResource Remove="OutilSQL\**" />
+    <EmbeddedResource Remove="publish\**" />
     <None Remove="GenererDatabase\**" />
     <None Remove="OutilSQL\**" />
+    <None Remove="publish\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="GestionEntrepriseError2025-02-07.log" />
   </ItemGroup>
 
   <ItemGroup>
